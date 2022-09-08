@@ -104,7 +104,7 @@ void ReadCSVUTF16LE(const std::wstring& fileName) {
 			//firstdataLine = CurrentLine + 2;
 		} else if (CurrentLine >= firstdataLine) {
 			auto result = split(value, "\t");
-
+			//ok
 		} else {
 			continue;
 		}
